@@ -11,13 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
   },
   "engines": {
-    "node": "16.14.0",
+    "node": "16.15.1",
     "npm": "7.20.0"
   }
 }
