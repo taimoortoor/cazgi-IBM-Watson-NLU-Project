@@ -1,7 +1,8 @@
 ---
 applications:
 - path: .
-  name: sentiment-analyzer #change to be unique in IBM Cloud
-  memory: 256M
+  name: toor-sentiment-analyzer #change to be unique in IBM Cloud
+  buildpack: nodejs_buildpack
+  memory: 128M
   instances: 1
   random-route: true
